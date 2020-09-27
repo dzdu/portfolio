@@ -144,6 +144,28 @@ body
                             .p-links
                                 margin: 1rem
 
+@media screen and ( max-width: 768px )
+    .cursor
+        display: none
+
+@media screen and ( max-width: 660px )
+    #writer
+        font-size: 16px
+        padding: 0.5rem
+    .content
+        flex-direction: column !important
+        justify-content: space-evenly
+        align-items: center
+        .right, .left
+            transform: none !important
+        a
+            font-size: 20px !important
+
+        .center
+            font-size: 20px !important
+            a
+                font-size: 20px !important
+
 @keyframes gradient
     0%
         background-position: 0% 50%
