@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    box-sizing: 0;
+    padding: 0;
+}
+
+
+.intro {
+    background: #46428b;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-text {
+    font-family: 'Fredoka One', cursive;
+    font-size: 2rem;
+    color: #fff
+}
+
+.slider {
+    background: #2f054e;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+}
+
+
+.hide {
+
+    overflow: hidden;
+}
+
+.hide span {
+    transform: translateY(120%);
+    display: inline-block;
+
+}
