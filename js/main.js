@@ -55,7 +55,7 @@ new TypeIt("#centerblocktwo", {
     .type("My name is Dzmitry!<br/>", {
         delay: 700
     })
-    .type("I'm 25 years old and I'm live in <a href='https://en.wikipedia.org/wiki/Sweden' target='_blank' class='c-links'>Sweden</a><br/>", {
+    .type("I'm 25 years old and I'm live in <a href='https://en.wikipedia.org/wiki/Sweden' target='_blank' class='c-links media-link'>Sweden</a><br/>", {
         delay: 700
     })
     .type("I'm graduated Webmaster. I studied at University West in Sweden and had best teachers in my life 🙃 <br/>", {
@@ -64,7 +64,7 @@ new TypeIt("#centerblocktwo", {
     .type("My biggiest hobby is Webdevelopment, Design and Photography. I have been photographer for few years now<br/>", {
         delay: 700
     })
-    .type("You can check <a href='https://unsplash.com/@dead__angel_' target='_blank' class='c-links'> my Unsplash profile</a> to get in touch with my pics <br/>", {
+    .type("You can check <a href='https://unsplash.com/@dead__angel_' target='_blank' class='c-links media-link'> my Unsplash profile</a> to get in touch with my pics <br/>", {
         delay: 700
     })
     .go();
@@ -88,7 +88,7 @@ new TypeIt("#centerblockthree", {
     })
     .type(`<a href='https://github.com/instdeadangel/' target='_blank' class="p-links c-links"> Github</a> 
     <a href='https://www.behance.net/kbryu6ysvb810e?tracking_source=search_users_recommended%7CDzmitry%20dudov' class="p-links c-links" target='_blank'> Behancé</a> 
-    <a href='http://taplink.cc/dead__angel_' target='_blank' class="p-links c-links"> Social Links </a> <br/><br/>
+    <a href='http://taplink.cc/dead__angel_' target='_blank' class="p-links c-links"> Social Links </a> 
     <a href='https://se.linkedin.com/in/dzmitry-dudov-32681b1b3' class="p-links c-links" target='_blank'>Linked in</a>
     `, {
         delay: 700

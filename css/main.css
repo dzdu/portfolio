@@ -1,15 +1,16 @@
 * {
   margin: 0;
   -webkit-box-sizing: 0;
-          box-sizing: 0;
+  box-sizing: 0;
   cursor: none;
 }
 
-html, body {
+html,
+body {
   background: linear-gradient(70deg, #2f054e, #975cbf, #3578b1, #0e2453);
   background-size: 400% 400%;
   -webkit-animation: gradient 20s ease infinite;
-          animation: gradient 20s ease infinite;
+  animation: gradient 20s ease infinite;
   color: #fff;
   scroll-behavior: smooth;
   margin: 0;
@@ -24,17 +25,17 @@ body .cursor {
   border-radius: 50%;
   position: absolute;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   pointer-events: none;
   -webkit-transition: all 0.1s ease;
   transition: all 0.1s ease;
   -webkit-transform-origin: 100% 100%;
-          transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
 }
 
 body .link-grow {
   -webkit-transform: scale(2);
-          transform: scale(2);
+  transform: scale(2);
   background: #444444;
   -webkit-transition: 0.1s;
   transition: 0.1s;
@@ -52,14 +53,14 @@ body header {
   height: 80px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 1rem;
 }
 
@@ -88,13 +89,13 @@ body main .container .block .content {
   min-height: 60vh;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   font-family: "Fredoka One", cursive;
   font-size: 18px;
   padding-top: 3rem;
@@ -124,7 +125,7 @@ body main .container .block .content a:hover {
 
 body main .container .block .content .left {
   -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
+  transform: rotate(-90deg);
   color: #fff;
 }
 
@@ -137,7 +138,7 @@ body main .container .block .content .center {
 
 body main .container .block .content .right {
   -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  transform: rotate(90deg);
   color: #ffffff;
 }
 
@@ -147,10 +148,10 @@ body main .container .block .toogle {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   bottom: 0;
   left: 50%;
   right: 50%;
@@ -160,7 +161,7 @@ body main .container .block .toogle .toogleUP {
   padding-top: 2rem;
   color: #fff;
   -webkit-animation: jump 3s infinite;
-          animation: jump 3s infinite;
+  animation: jump 3s infinite;
   position: relative;
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
@@ -175,7 +176,7 @@ body main .container .block .toogle .toogleUP:hover {
 body main .container .block .toogle .toogleDown {
   color: #fff;
   -webkit-animation: jump 3s infinite;
-          animation: jump 3s infinite;
+  animation: jump 3s infinite;
   position: relative;
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
@@ -218,7 +219,13 @@ body main .container .about-blocks .content .center p a:hover {
 }
 
 body main .container .about-blocks .content .center p .p-links {
-  margin: 1rem;
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  align-items: center;
+  width: 20%;
+  padding: 0.5re;
+  margin: auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -232,30 +239,82 @@ body main .container .about-blocks .content .center p .p-links {
     font-size: 16px;
     padding: 0.5rem;
   }
+
   .content {
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: normal !important;
-        -ms-flex-direction: column !important;
-            flex-direction: column !important;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
     -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
-  .content .right, .content .left {
+
+  .content .right,
+  .content .left {
     -webkit-transform: none !important;
-            transform: none !important;
+    transform: none !important;
   }
-  .content a {
-    font-size: 20px !important;
-  }
+
+
   .content .center {
     font-size: 20px !important;
   }
+
   .content .center a {
-    font-size: 20px !important;
+    font-size: 20px;
+  }
+
+
+
+}
+
+@media screen and (max-width: 400px) {
+  .toogleUP {
+    animation: none !important;
+  }
+
+
+  .center-text {
+    font-size: 12px !important;
+    margin: 0.5rem;
+  }
+
+  .media-link {
+    font-size: 12px !important;
+  }
+
+  .blockthree {
+    font-size: 12px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .blockthree a {
+    font-size: 12px !important;
+    margin: 0.5rem;
+  }
+
+  .p-links {
+    width: 50% !important;
+  }
+}
+
+@media not all and (min-resolution:.001dpcm) {
+  @supports (-webkit-appearance:none) {
+
+    * {
+      cursor: default;
+    }
+
+    .cursor {
+      display: none;
+    }
   }
 }
 
@@ -263,9 +322,11 @@ body main .container .about-blocks .content .center p .p-links {
   0% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 0% 50%;
   }
@@ -275,9 +336,11 @@ body main .container .about-blocks .content .center p .p-links {
   0% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 0% 50%;
   }
@@ -287,9 +350,11 @@ body main .container .about-blocks .content .center p .p-links {
   0% {
     top: -20px;
   }
+
   50% {
     top: 10px;
   }
+
   100% {
     top: -20px;
   }
@@ -299,11 +364,14 @@ body main .container .about-blocks .content .center p .p-links {
   0% {
     top: -20px;
   }
+
   50% {
     top: 10px;
   }
+
   100% {
     top: -20px;
   }
 }
+
 /*# sourceMappingURL=main.css.map */
