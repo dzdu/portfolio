@@ -276,6 +276,7 @@ body main .container .about-blocks .content .center p .p-links {
   .toogleDown {
     animation: none !important;
     font-size: 47px !important;
+    padding-bottom: 3rem;
   }
 
   .center-text {
