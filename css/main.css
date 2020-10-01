@@ -271,9 +271,11 @@ body main .container .about-blocks .content .center p .p-links {
 @media screen and (max-width: 400px) {
   .toogleUP {
     animation: none !important;
+    font-size: 47px !important;
   }
   .toogleDown {
     animation: none !important;
+    font-size: 47px !important;
   }
 
   .center-text {
