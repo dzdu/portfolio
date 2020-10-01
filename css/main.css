@@ -272,17 +272,13 @@ body main .container .about-blocks .content .center p .p-links {
   .toogleUP {
     animation: none !important;
   }
-  .toogleUP {
+  .toogledown {
     animation: none !important;
   }
 
   .center-text {
     font-size: 12px !important;
     margin: 0.5rem;
-  }
-
-  .media-link {
-    font-size: 12px !important;
   }
 
   .blockthree {
@@ -293,7 +289,7 @@ body main .container .about-blocks .content .center p .p-links {
     align-items: center;
   }
 
-  .blockthree a {
+  a {
     font-size: 12px !important;
     margin: 0.5rem;
   }
