@@ -1,42 +1,38 @@
-new TypeIt("#writer", {
+new TypeIt('#writer', {
   speed: 200,
   waitUntilVisible: true,
   cursor: false,
 })
-  .type("Junior", {
+  .type('WEBMASTER', {
     delay: 700,
   })
   .delete()
-  .type("WEBMASTER", {
+  .type('Front-end', {
     delay: 700,
   })
   .delete()
-  .type("Front-end", {
+  .type('UX', {
     delay: 700,
   })
   .delete()
-  .type("UX", {
+  .type('Back-end', {
     delay: 700,
   })
   .delete()
-  .type("Back-end", {
-    delay: 700,
-  })
-  .delete()
-  .type("Junior WEBMASTER-Frontend-UX-Backend developer", {
+  .type('WEBMASTER-Frontend-UX-Backend developer', {
     delay: 700,
     cursor: false,
   })
   .go();
-new TypeIt(".center", {
+new TypeIt('.center', {
   speed: 150,
   waitUntilVisible: true,
   cursor: false,
 })
-  .type("Hello, Stranger!<br/>", {
+  .type('Hello, Stranger!<br/>', {
     delay: 700,
   })
-  .type("Nice to meet you!<br/>", {
+  .type('Nice to meet you!<br/>', {
     delay: 700,
   })
   .type(
@@ -50,28 +46,28 @@ new TypeIt(".center", {
   )
   .go();
 
-new TypeIt("#centerblocktwo", {
+new TypeIt('#centerblocktwo', {
   speed: 100,
   waitUntilVisible: true,
   cursor: false,
 })
-  .type("My name is Dzmitry!<br/>", {
+  .type('My name is Dzmitry!<br/>', {
     delay: 700,
   })
   .type(
-    "I'm 25 years old and I'm live in <a href='https://en.wikipedia.org/wiki/Sweden' target='_blank' class='c-links media-link'>Sweden</a><br/>",
+    "I'm 25 years old and I'm from <a href='https://en.wikipedia.org/wiki/Sweden' target='_blank' class='c-links media-link'>Sweden</a><br/>",
     {
       delay: 700,
     },
   )
   .type(
-    "I'm graduated Webmaster. I studied at University West in Sweden and had best teachers in my life 🙃 <br/>",
+    "I'm graduated Webmaster and studied at University West in Sweden and had best teachers in my life 🙃 <br/>",
     {
       delay: 700,
     },
   )
   .type(
-    "My biggiest hobby is Webdevelopment, Design and Photography. I have been photographer for few years now<br/>",
+    'My biggiest hobby is Webdevelopment, Design and Photography. I have been photographer for few years now<br/>',
     {
       delay: 700,
     },
@@ -84,29 +80,23 @@ new TypeIt("#centerblocktwo", {
   )
   .go();
 
-new TypeIt("#centerblockthree", {
+new TypeIt('#centerblockthree', {
   speed: 100,
   waitUntilVisible: true,
   cursor: false,
 })
-  .type("At this moment I'm a junior WEBMASTER and I'm looking for JOB<br/>", {
+  .type("I'm a WEBMASTER who realy enjoying web development<br/>", {
     delay: 700,
   })
-  .type(
-    "I got some projects done both in MERN, React JS, React Native, Webpack and some UX<br/>",
-    {
-      delay: 700,
-    },
-  )
-  .type("You can find those projects by clicking each of links 🙂<br/>", {
+  .type('I got some projects done both in MERN, ReactJS & Native, Webpack, Node JSand UX<br/>', {
     delay: 700,
   })
-  .type(
-    "I always update my portfolio, so don't forget to check it out<br/><br/>",
-    {
-      delay: 700,
-    },
-  )
+  .type('You can find those projects by clicking each of links 🙂<br/>', {
+    delay: 700,
+  })
+  .type("I always update my portfolio, so don't forget to check it out<br/><br/>", {
+    delay: 700,
+  })
   .type(
     `<a href='https://github.com/instdeadangel/' target='_blank' class="p-links c-links"> Github</a> 
     <a href='https://www.behance.net/dzdu' class="p-links c-links" target='_blank'> Behancé</a> 
@@ -119,7 +109,7 @@ new TypeIt("#centerblockthree", {
   )
   .go();
 
-new TypeIt("#centerblockfour", {
+new TypeIt('#centerblockfour', {
   speed: 100,
   waitUntilVisible: true,
   cursor: false,
@@ -127,13 +117,13 @@ new TypeIt("#centerblockfour", {
   .type("🥰 Let's get in touch 🥰<br/>", {
     delay: 700,
   })
-  .type("Email me<br/>", {
+  .type('Email me<br/>', {
     delay: 700,
   })
-  .type("💌 513dragan@gmail.com <br/>", {
+  .type('💌 513dragan@gmail.com <br/>', {
     delay: 700,
   })
-  .type("or<br/> 💌 instdeadangel@gmail.com <br/>", {
+  .type('or<br/> 💌 instdeadangel@gmail.com <br/>', {
     delay: 700,
   })
   .type(
