@@ -36,9 +36,11 @@ new TypeIt('.center', {
     delay: 700,
   })
   .type(
-    `Would you like to know me better?<br/>
-    <a href="#blocktwo" class='c-links'>Yes 🤍</button></a>
-    <a href="../html/sorry.html" class='c-links'>No 😔</button></a>
+    // `Would you like to know me better?<br/>
+    // <a href="#blocktwo" class='c-links'>Yes 🤍</button></a>
+    // <a href="../html/sorry.html" class='c-links'>No 😔</button></a>
+    //`,
+    `This page is currently under construction, please come back later
     `,
     {
       delay: 700,
